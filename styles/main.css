@@ -11,17 +11,44 @@ position: relative;
 h1 {
 color: #ffcc00;
 font-family: 'Righteous', cursive;
-font-size: 5em;
+font-size: 4em;
 text-align: center;
-
 }
+
+
+.myButton {
+	background-color:#ffcc00;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:28px;
+	font-weight:bold;
+	padding:22px 34px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffdb29;
+}
+.myButton:hover {
+	background-color:#fae820;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
 
 h2 {
 color: #ffcc00;
 font-family: 'Maven Pro', sans-serif;
 font-size: 4em;
 text-align: left;
-margin-left: 50Px;
+margin-left: 5%;
 }
 
 header {
@@ -74,6 +101,19 @@ margin-bottom: auto;
 
 }
 
+p2 {
+font-family: 'Maven Pro', sans-serif;
+color: white;
+background: black;
+text-align: center;
+display: flex;
+font-size: 3em;
+margin-left: 43%;
+margin-bottom: 2%;
+}
+
+
+
 footer{
   font-family: 'Maven Pro', sans-serif;
 color: white;
@@ -108,12 +148,7 @@ h3 {
 }
 
 
-.logo {
-margin-left: 5%;
-margin-right: 90%;
-margin-top: 3%;
-margin-bottom: auto;
-}
+
 
 .logo2 {
 margin-left: 45%;
